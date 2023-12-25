@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid bg-success">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/—Pngtree—illustration works as a programmer_5980063.png" class="w-100"/>
+        </div>
+        <div class="col-md-6 bg-white form_bg">
+            <h1 class="text-center mt-5">Smart Login System</h1>
+            <form id="form">
+                <input id="email" type="email"  class="form-control my-4 mt-5" placeholder="Email"/>
+                <input id="password" type="password"  class="form-control my-4" placeholder="Password"/>
+                <a  onclick="logIn()" id="logButtom" type="button" class="btn btn-success w-100">Log in</a>
+                <div class="alert alert-danger d-none mt-3" id="alertLogin" role="alert">
+                    Invaild Email Or Password 
+                    </div>
+                <p class="mt-4">Don’t have an account? <a href="SignUp.html" type="button">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+  </div>
+  <script src="js/Main.js"></script>
+</body>
+
+</html>

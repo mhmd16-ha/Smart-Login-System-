@@ -1,0 +1,11 @@
+@font-face {
+    font-family:Pacifico ;
+    src: url(../webfonts/Pacifico-Regular.ttf);
+}
+h1,p,h2{
+    font-family:Pacifico ;
+}
+.form_bg{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}

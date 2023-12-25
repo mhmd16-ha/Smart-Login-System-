@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid bg-success">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/—Pngtree—illustration works as a programmer_5980063.png" class="w-100"/>
+        </div>
+        <div class="col-md-6 bg-white form_bg">
+            <h1 class="text-center mt-5">Smart Login System</h1>
+            <form >
+                <input onkeyup="nameValidation()" id="registerName" type="text"  class="form-control my-4 mt-5" placeholder="Full Name"/>
+                <input onkeyup="EmailValidation()" id="registerEmail" type="email"  class="form-control my-4 " placeholder="Email"/>
+                <input onkeyup=" passwordValidation()" id="registerPassword"type="password"  class="form-control my-4" placeholder="Password"/>
+                <div class="alert alert-success d-none" id="alert" role="alert">
+                  success 
+                  </div>
+                <button onclick="addClient()" id="registerButton" type="button" class="btn btn-success w-100">Sign up</button>
+                <p class="mt-4">You have an account? <a href="index.html" type="button">Log in</a></p>  
+            </form>
+        </div>
+    </div>
+  </div>
+  <script src="js/Main.js"></script>
+
+</body>
+
+</html>
